@@ -111,28 +111,33 @@ Alice
 なお、期待する入出力は [basic_testcases.json](https://github.com/h1r0t0/flag/blob/master/basic_testcases.json)にいくつか定されています。
 実装する際の参考にしてください。
 
-コマンドラインアプリケーション(CLI アプリ)作成用テンプレート(Java)
+## コマンドラインアプリケーション(CLI アプリ)作成用テンプレート(Java)
 
-App.javaを編集して、CLIアプリを実装してください。
+[App.java](https://github.com/h1r0t0/flag/blob/master/App.java)を編集して、CLIアプリを実装してください。
 チャレンジ内でファイルの作成が許可されていれば、可読性等のためにファイルを分割する事も可能です。
 
-標準入力の取得方法
+### 標準入力の取得方法
 
-標準入力の内容はgetstdin() 関数を使用して配列として取得可能です
+標準入力の内容は **getstdin()** 関数を使用して配列として取得可能です
 
-public static void main(String 1 args
-String Lines = getStain():
-11:cade to run
+```
+public static void main(String[] args){
+    String Lines = getStain();
+}
+```
+    _// cade to run_
 
-コマンド実行結果の標準出力への出力
+### コマンド実行結果の標準出力への出力
 
-標準の System.out.printinメソッド等を使用してください。
+標準の **System.out.printin**メソッド等を使用してください。
 
+```
 System.out.println(args);
+```
 
-外部ライブラリの追加方法
+### 外部ライブラリの追加方法
 
 外部ライブラリを使用する場合は以下の手順で実施してください。
 
-pom.xml に依存ライブラリの追加
+* [pom.xml](https://github.com/h1r0t0/flag/blob/master/pom.xml) に依存ライブラリの追加
 

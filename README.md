@@ -123,7 +123,7 @@ Alice
 ```java
 public static void main(String[] args){
     String Lines = getStain();
-        // cade to run
+        // code to run
 }
 ```
 

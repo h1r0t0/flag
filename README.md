@@ -123,9 +123,10 @@ Alice
 ```java
 public static void main(String[] args){
     String Lines = getStain();
+        // cade to run
 }
 ```
-    _// cade to run_
+
 
 ### コマンド実行結果の標準出力への出力
 

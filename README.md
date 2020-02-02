@@ -120,7 +120,7 @@ Alice
 
 標準入力の内容は **getstdin()** 関数を使用して配列として取得可能です
 
-```
+```java
 public static void main(String[] args){
     String Lines = getStain();
 }
@@ -131,7 +131,7 @@ public static void main(String[] args){
 
 標準の **System.out.printin**メソッド等を使用してください。
 
-```
+```java
 System.out.println(args);
 ```
 

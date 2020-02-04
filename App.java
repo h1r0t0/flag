@@ -17,6 +17,7 @@ public class App {
             String[] lines = getStdin(fr);
             for (int i = 0, l = lines.length; i < l; i++) {
                     //String output = String.format("line[%s]: %s", i, lines[i]);
+                    System.out.println("main----------");
                     String output = String.format("%s", lines[i]);
                     System.out.println(output);
             }
@@ -27,10 +28,14 @@ public class App {
       private static String[] getStdin(FileReader fr) {
             Scanner scanner = new Scanner(fr);
             ArrayList<String> lines = new ArrayList<>();
+            System.out.println("next(): " + scanner.next());
             String [] s = scanner.next().split(" ");
+            System.out.println("Inside of s[]: ");
             for (int i = 0; i < s.length; i++) {
+                  System.out.print(s[i] + " ");
                   lines.add(s[i]);
             }
+            System.out.println();
             //lines.remove("exit");
             // scanner.close();
             return lines.toArray(new String[lines.size()]);

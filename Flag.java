@@ -31,9 +31,11 @@ public class Flag{
       }
 
       // status tracker
+      System.out.println("winner():");
       System.out.print("Red: " + red + " / White: " + white);
       System.out.println();
       System.out.println(s[i]);
+      System.out.println("Length: " + s.length);
 
       // if Simon makes any mistake
       if((red<0 || red>1)

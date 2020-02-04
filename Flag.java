@@ -30,6 +30,9 @@ public class Flag{
         white--;
       }
 
+      // status tracker
+      System.out.print("Red: " + red + " / White: " + white);
+
       // if Simon makes any mistake
       if((red<0 || red>1)
         ||(white<0 || white>1)){

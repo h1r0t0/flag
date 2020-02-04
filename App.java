@@ -9,9 +9,9 @@ public class App {
             Flag f = new Flag();
             FileReader fr = null;
             try{
-                  fr = new FileReader();
+                  fr = new FileReader("./in/sample1.txt");
             }
-            catch(Exception e){
+            catch(FileNotFoundException e){
                   Systme.out.println("FileNotFound");
             }
             String[] lines = getStdin();

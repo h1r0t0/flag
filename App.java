@@ -9,7 +9,7 @@ public class App {
             Flag f = new Flag();
             FileReader fr = null;
             try{
-                  fr = new FileReader("./in/sample2.txt");
+                  fr = new FileReader("./in/sample1.txt");
             }
             catch(FileNotFoundException e){
                   System.out.println("FileNotFound");
@@ -29,10 +29,10 @@ public class App {
             ArrayList<String> lines = new ArrayList<>();
             while (scanner.hasNext()) {
                  lines.add(scanner.nextLine());
-                 if(lines.contains("exit")) break;
+                 //if(lines.contains("exit")) break;
             }
-            lines.remove("exit");
-            scanner.close();
+            //lines.remove("exit");
+            // scanner.close();
             return lines.toArray(new String[lines.size()]);
       }
 }

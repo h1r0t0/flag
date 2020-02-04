@@ -27,9 +27,9 @@ public class App {
       private static String[] getStdin(FileReader fr) {
             Scanner scanner = new Scanner(fr);
             ArrayList<String> lines = new ArrayList<>();
-            while (scanner.hasNext()) {
-                 lines.add(scanner.nextLine());
-                 //if(lines.contains("exit")) break;
+            String [] s = scanner.next().split(" ");
+            for (int i = 0; i < s.length; i++) {
+                  lines.add(s[i]);
             }
             //lines.remove("exit");
             // scanner.close();

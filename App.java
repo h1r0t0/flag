@@ -1,12 +1,11 @@
-package track;
+//package track;
 import java.util.Scanner;
 import java.util.ArrayList;
 
-public class App {
-      
+public class App {    
       public static void main(String[] args) {
+            Flag f = new Flag();
             String[] lines = getStdin();
-            Flag f = new Flag(lines);
             for (int i = 0, l = lines.length; i < l; i++) {
                     //String output = String.format("line[%s]: %s", i, lines[i]);
                     String output = String.format("%s", lines[i]);

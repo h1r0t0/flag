@@ -1,4 +1,4 @@
-package track;
+//package track;
 import java.util.Scanner;
 import java.util.ArrayList;
 
@@ -7,10 +7,9 @@ class Flag{
   int white;
   String[] s;
 
-  Flag(String[] l){
+  Flag(){
     red = 0;
     white = 0;
-    s = l;
   }
 
   boolean winner(Flag a){

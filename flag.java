@@ -39,23 +39,3 @@ class Flag{
     return true;
   }
 }
-
-public class App {
-  
-  public static void main(String[] args) {
-    String[] lines = getStdin();
-    RW f = new RW(lines);
-    
-    if(f.winner == true) System.out.println("simon");
-    else System.out.println("alice");
-    }
-
-  private static String[] getStdin() {
-    Scanner scanner = new Scanner(System.in);
-    ArrayList<String> lines = new ArrayList<>();
-    while (scanner.hasNext()) {
-      lines.add(scanner.nextLine());
-    }
-    return lines.toArray(new String[lines.size()]);
-  }
-}

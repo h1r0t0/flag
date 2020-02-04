@@ -2,12 +2,12 @@ package track;
 import java.util.Scanner;
 import java.util.ArrayList;
 
-class RW{
+class Flag{
   int red;
   int white;
   String[] s;
 
-  RW(String[] l){
+  Flag(String[] l){
     red = 0;
     white = 0;
     s = l;

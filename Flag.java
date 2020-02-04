@@ -45,11 +45,11 @@ public class Flag{
       }
 
       // status tracker
-      System.out.print("Red: " + red + " / White: " + white);
-      System.out.println();
-      System.out.print("s[" + i + "]: " + s[i] + " ");
-      System.out.println("/ Length: " + s.length);
-      System.out.println();
+      // System.out.print("Red: " + red + " / White: " + white);
+      // System.out.println();
+      // System.out.print("s[" + i + "]: " + s[i] + " ");
+      // System.out.println("/ Length: " + s.length);
+      // System.out.println();
 
       // if Simon makes any mistake
       if((red<0 || red>1)
@@ -79,13 +79,13 @@ public class Flag{
         System.out.print("D");
       }  
     }
-    System.out.println();
   }
 
   void judge(boolean w){
     if(w == true){
       System.out.println("Simon");
-      //fs(rw(getRed(), getWhite()));
+      fs(rw(getRed(), getWhite()));
+      System.out.println();
     }
     else{
       System.out.println("Alice");

@@ -9,21 +9,21 @@ public class App {
             Flag f = new Flag();
             FileReader fr = null;
             try{
-                  fr = new FileReader("./in/sample2.txt");
+                  fr = new FileReader("./in/sample1.txt");
             }
             catch(FileNotFoundException e){
                   System.out.println("FileNotFound");
             } 
             String[] lines = getStdin(fr);
-            System.out.println("main----------");
+            //System.out.println("main----------");
             for (int i = 0, l = lines.length; i < l; i++) {
                     //String output = String.format("line[%s]: %s", i, lines[i]);
                     String output = String.format("%s", lines[i]);
-                    System.out.println(output);
+                    //System.out.println(output);
             }
             //System.out.println("Num of elements: " + i);
-            System.out.println();
-            System.out.println("winner()--------");
+            //System.out.println();
+            //System.out.println("winner()--------");
             f.judge(f.winner(lines));
       }
 

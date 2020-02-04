@@ -2,7 +2,7 @@
 import java.util.Scanner;
 import java.util.ArrayList;
 
-class Flag{
+public class Flag{
   int red;
   int white;
   String[] s;

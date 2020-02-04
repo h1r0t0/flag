@@ -13,7 +13,7 @@ class Flag{
     s = l;
   }
 
-  static boolean winner(RW a){
+  static boolean winner(Flag a){
     // simon : ture
     // alice : false 
 

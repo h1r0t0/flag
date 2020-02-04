@@ -17,16 +17,16 @@ public class Flag{
     // alice : false 
 
     for(int i = 0; i < s.length; i++){
-      if(s[i]=="RU"){
+      if(s[i].equals("RW")){
         red++;
       }
-      if(s[i]=="RD"){
+      if(s[i].equals("RD")){
         red--;
       }
-      if(s[i]=="WU"){
+      if(s[i].equals("WU")){
         white++;
       }
-      if(s[i]=="WD"){
+      if(s[i].equals("WD")){
         white--;
       }
 
@@ -34,7 +34,7 @@ public class Flag{
       System.out.println("winner():");
       System.out.print("Red: " + red + " / White: " + white);
       System.out.println();
-      System.out.println(s[i]);
+      System.out.println("s[" + i + "]: " + s[i]);
       System.out.println("Length: " + s.length);
 
       // if Simon makes any mistake

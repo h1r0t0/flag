@@ -63,24 +63,29 @@ public class Flag{
     return true;
   }
 
+  // return a pair of flag states
   int[] rw(int r, int w){
     int pair[] = {r,w};
     return pair;
   }
 
-  // void fun(int red, int white){
-  //   String r = red.parseSting
-  //   char x =r.charAt(1);
-    
-  //   String w = whte.parseSting
-  //   char y =w.charAt(1);
-  //   System.out.pritnln(x+y);
-  // }
+  // prints final state
+  void fs(int pair[]){
+    for(int i = 0; i < pair.length; i++){
+      if(pair[i] == 1){
+        System.out.print("U");
+      }
+      else{
+        System.out.print("D");
+      }  
+    }
+    System.out.println();
+  }
 
   void judge(boolean w){
     if(w == true){
       System.out.println("Simon");
-      // fun(red, white)
+      //fs(rw(getRed(), getWhite()));
     }
     else{
       System.out.println("Alice");

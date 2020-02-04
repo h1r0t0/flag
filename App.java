@@ -10,6 +10,7 @@ public class App {
                     //String output = String.format("line[%s]: %s", i, lines[i]);
                     String output = String.format("%s", lines[i]);
                     System.out.println(output);
+                    System.out.println("Num of elements: " + i);
             }
       }
 

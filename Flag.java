@@ -43,12 +43,24 @@ public class Flag{
           return false;
         }
     }
+    // below Simon is the winner
+    // fun() 
+    // parse red and white
     return true;
   }
+
+  // fun(int red, int white){
+  //   String r = red.parseSting
+  //   char x =r.charAt(1);
+    
+  //   String w = whte.parseSting
+  //   char y =w.charAt(1);
+  // }
 
   void judge(boolean w){
     if(w == true){
       System.out.println("Simon");
+      // System.out.pritnln(fun());
     }
     else{
       System.out.println("Alice");

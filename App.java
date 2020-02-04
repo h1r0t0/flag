@@ -1,6 +1,7 @@
 //package track;
 import java.util.Scanner;
 import java.util.ArrayList;
+import java.io.FileReader;
 
 public class App {    
       public static void main(String[] args) {
@@ -12,7 +13,7 @@ public class App {
                     System.out.println(output);
             }
             //System.out.println("Num of elements: " + i);
-            f.judge(f.winner(f));
+            f.judge(f.winner(lines));
       }
 
       private static String[] getStdin() {

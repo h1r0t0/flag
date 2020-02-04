@@ -18,7 +18,10 @@ public class App {
             ArrayList<String> lines = new ArrayList<>();
             while (scanner.hasNext()) {
                  lines.add(scanner.nextLine());
+                 if(lines.contains("exit")) break;
             }
+            lines.remove("exit");
+            scanner.close();
             return lines.toArray(new String[lines.size()]);
       }
 }

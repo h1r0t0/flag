@@ -6,6 +6,7 @@ public class App {
       
       public static void main(String[] args) {
             String[] lines = getStdin();
+            Flag f = new Flag(lines);
             for (int i = 0, l = lines.length; i < l; i++) {
                     //String output = String.format("line[%s]: %s", i, lines[i]);
                     String output = String.format("Hello %s!", lines[i]);

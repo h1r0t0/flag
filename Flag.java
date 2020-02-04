@@ -30,6 +30,7 @@ public class Flag{
         white--;
       }
 
+      // if Simon makes any mistake
       if((red<0 || red>1)
         ||(white<0 || white>1)){
           return false;
@@ -40,10 +41,10 @@ public class Flag{
 
   void judge(boolean w){
     if(w == true){
-      System.out.println("Alice");
+      System.out.println("Simon");
     }
     else{
-      System.out.println("Simon");
+      System.out.println("Alice");
     }
   }
 }

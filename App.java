@@ -9,12 +9,12 @@ public class App {
             Flag f = new Flag();
             FileReader fr = null;
             try{
-                  fr = new FileReader("./in/sample1.txt");
+                  fr = new FileReader("./in/sample2.txt");
             }
             catch(FileNotFoundException e){
-                  Systme.out.println("FileNotFound");
-            }
-            String[] lines = getStdin();
+                  System.out.println("FileNotFound");
+            } 
+            String[] lines = getStdin(fr);
             for (int i = 0, l = lines.length; i < l; i++) {
                     //String output = String.format("line[%s]: %s", i, lines[i]);
                     String output = String.format("%s", lines[i]);
@@ -24,8 +24,8 @@ public class App {
             f.judge(f.winner(lines));
       }
 
-      private static String[] getStdin() {
-            Scanner scanner = new Scanner(System.in);
+      private static String[] getStdin(FileReader fr) {
+            Scanner scanner = new Scanner(fr);
             ArrayList<String> lines = new ArrayList<>();
             while (scanner.hasNext()) {
                  lines.add(scanner.nextLine());

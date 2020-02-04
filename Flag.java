@@ -12,6 +12,20 @@ public class Flag{
     white = 0;
   }
 
+  /**
+   * @return the red
+   */
+  public int getRed() {
+    return red;
+  }
+
+  /**
+   * @return the white
+   */
+  public int getWhite() {
+    return white;
+  }
+
   boolean winner(String[] s){
     // simon : true
     // alice : false 
@@ -49,18 +63,24 @@ public class Flag{
     return true;
   }
 
-  // fun(int red, int white){
+  int[] rw(int r, int w){
+    int pair[] = {r,w};
+    return pair;
+  }
+
+  // void fun(int red, int white){
   //   String r = red.parseSting
   //   char x =r.charAt(1);
     
   //   String w = whte.parseSting
   //   char y =w.charAt(1);
+  //   System.out.pritnln(x+y);
   // }
 
   void judge(boolean w){
     if(w == true){
       System.out.println("Simon");
-      // System.out.pritnln(fun());
+      // fun(red, white)
     }
     else{
       System.out.println("Alice");

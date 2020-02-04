@@ -32,7 +32,7 @@ class RW{
       }
 
       if((red<0 || red>1)
-        ||(white<0 || white>1){
+        ||(white<0 || white>1)){
           return false;
         }
     }
@@ -49,10 +49,6 @@ public class App {
     if(f.winner == true) System.out.println("simon");
     else System.out.println("alice");
     }
-
-  }
-
-  
 
   private static String[] getStdin() {
     Scanner scanner = new Scanner(System.in);

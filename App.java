@@ -11,7 +11,7 @@ public class App {
                     String output = String.format("%s", lines[i]);
                     System.out.println(output);
             }
-            System.out.println("Num of elements: " + i);
+            //System.out.println("Num of elements: " + i);
             f.judge(f.winner(f));
       }
 

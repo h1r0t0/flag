@@ -17,7 +17,7 @@ public class Flag{
     // alice : false 
 
     for(int i = 0; i < s.length; i++){
-      if(s[i].equals("RW")){
+      if(s[i].equals("RU")){
         red++;
       }
       if(s[i].equals("RD")){
@@ -31,11 +31,11 @@ public class Flag{
       }
 
       // status tracker
-      System.out.println("winner():");
       System.out.print("Red: " + red + " / White: " + white);
       System.out.println();
-      System.out.println("s[" + i + "]: " + s[i]);
-      System.out.println("Length: " + s.length);
+      System.out.print("s[" + i + "]: " + s[i] + " ");
+      System.out.println("/ Length: " + s.length);
+      System.out.println();
 
       // if Simon makes any mistake
       if((red<0 || red>1)

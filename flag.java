@@ -13,7 +13,7 @@ class Flag{
   }
 
   boolean winner(Flag a){
-    // simon : ture
+    // simon : true
     // alice : false 
 
     for(int i = 0; i < a.s.length; i++){
@@ -36,5 +36,14 @@ class Flag{
         }
     }
     return true;
+  }
+
+  void judge(boolean w){
+    if(w == true){
+      System.out.println("Alice");
+    }
+    else{
+      System.out.println("Simon");
+    }
   }
 }

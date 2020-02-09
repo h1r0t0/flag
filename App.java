@@ -9,7 +9,7 @@ public class App {
             Flag f = new Flag();
             FileReader fr = null;
             try{
-                  fr = new FileReader("./in/sample1.txt");
+                  fr = new FileReader("./in/sample3.txt");
             }
             catch(FileNotFoundException e){
                   System.out.println("FileNotFound");

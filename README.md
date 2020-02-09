@@ -108,9 +108,9 @@ Alice
 1回目の指示の時点で、シモンが間違った指示を出しているので、アリスの勝利となります。 
 シモンは、敗北したことに気づかず、この例のように更に指示を何個か送ってしまうこともあります。
 
-なお、期待する入出力は [basic_testcases.json](https://github.com/h1r0t0/flag/blob/master/basic_testcases.json)にいくつか定されています。
+<!--なお、期待する入出力は [basic_testcases.json](https://github.com/h1r0t0/flag/blob/master/basic_testcases.json)にいくつか定されています。
 実装する際の参考にしてください。
-
+-->
 ## コマンドラインアプリケーション(CLI アプリ)作成用テンプレート(Java)
 
 [App.java](https://github.com/h1r0t0/flag/blob/master/App.java)を編集して、CLIアプリを実装してください。
@@ -135,10 +135,10 @@ public static void main(String[] args){
 ```java
 System.out.println(args);
 ```
-
-### 外部ライブラリの追加方法
+<!--### 外部ライブラリの追加方法
 
 外部ライブラリを使用する場合は以下の手順で実施してください。
 
 * [pom.xml](https://github.com/h1r0t0/flag/blob/master/pom.xml) に依存ライブラリの追加
+-->
 

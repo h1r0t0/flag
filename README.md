@@ -1,9 +1,13 @@
+<script type="text/x-mathjax-config">MathJax.Hub.Config({tex2jax:{inlineMath:[['\$','\$'],['\\(','\\)']],processEscapes:true},CommonHTML: {matchFontHeight:false}});</script>
+<script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+
 
 # 実行までの手順
 1. flag.zipファイルをダウンロード
 2. ダウンロードファイルを解凍
 3. コマンドライン上のflagディレクトリ内で
-```
+```
 java App
 ```
 を実行
@@ -64,9 +68,10 @@ s[1] s[2] ... s[q]
 
 制約は以下です。
 
-* $1\leq q\leq 50$ ,　整数
+* ![$1 \leq q\leq 50$](https://render.githubusercontent.com/render/math?math=%241%20%5Cleq%20q%5Cleq%2050%24)
+ ,　整数 
 * $s[i]$ は　**RU**, **RD**, **MU**, **MD** のいずれか
- * $s[i]$ の1文字目は、旗の色を示しています。
+* $s[i]$ の1文字目は、旗の色を示しています。
 
  1文字目が**R**の場合は赤（Red）、**W**の場合は白（White）の旗に対する指示であることを示しています
  * $s[i]$ の2文字目は、上げるか下げるかを表しています。

@@ -70,11 +70,14 @@ s[1] s[2] ... s[q]
 
 * ![$1 \leq q\leq 50$](https://render.githubusercontent.com/render/math?math=%241%20%5Cleq%20q%5Cleq%2050%24)
  ,　整数 
-* $s[i]$ は　**RU**, **RD**, **MU**, **MD** のいずれか
-* $s[i]$ の1文字目は、旗の色を示しています。
+* ![$s\[i\]$](https://render.githubusercontent.com/render/math?math=%24s%5Bi%5D%24)
+ は　**RU**, **RD**, **MU**, **MD** のいずれか
+* ![$s\[i\]$](https://render.githubusercontent.com/render/math?math=%24s%5Bi%5D%24)
+ の1文字目は、旗の色を示しています。
 
  1文字目が**R**の場合は赤（Red）、**W**の場合は白（White）の旗に対する指示であることを示しています
- * $s[i]$ の2文字目は、上げるか下げるかを表しています。
+ * ![$s\[i\]$](https://render.githubusercontent.com/render/math?math=%24s%5Bi%5D%24)
+ の2文字目は、上げるか下げるかを表しています。
 
  2文字目が**U**の場合は上げる（Up）、**D**の場合は下げる指示（Down）であることしています
 

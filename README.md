@@ -7,6 +7,8 @@ java App
 ```
 を実行
 
+__*__　初期標準入力：入出力例3
+
 # Flag Game
 
 シモンとアリスは、旗上げゲームで遊んでいます。
@@ -94,9 +96,9 @@ Winner
 
 ## 入出力例
 
-### 入出力例1
+### 入出力例1 
 
-標準入力
+標準入力 [/in/sample1.txt](https://github.com/h1r0t0/flag/blob/master/in/sample1.txt)
 
 ```
 RU WU WD
@@ -118,11 +120,11 @@ UD
 
 よって、最終的に赤が上がっており、白が下がっている。
 
-答えとしては、シモンが勝ち、その時の最終状態は `UD`であると答えるのが正解になります。
+答えとしては、シモンが勝ち、その時の最終状態は `UD`になります。
 
 ### 入出力例2
 
-標準入力
+標準入力 [/in/sample2.txt](https://github.com/h1r0t0/flag/blob/master/in/sample2.txt)
 
 ```
 RD RU WU RD
@@ -137,6 +139,24 @@ Alice
 1回目の指示の時点で、シモンが間違った指示を出しているので、アリスの勝利となります。 
 
 シモンは、敗北したことに気づかず、この例のように更に指示を何個か送ってしまうこともあります。
+
+### 入出力例3
+
+標準入力 [/in/sample3.txt](https://github.com/h1r0t0/flag/blob/master/in/sample3.txt)
+
+```
+RU RD RU WU WD RD RU RD WU RU WD RD WU
+```
+
+標準出力
+
+```
+Simon
+DU
+```
+
+答えとしては、シモンが勝ち、その時の最終状態は `DU`です。
+
 
 <!--なお、期待する入出力は [basic_testcases.json](https://github.com/h1r0t0/flag/blob/master/basic_testcases.json)にいくつか定されています。
 実装する際の参考にしてください。

@@ -1,8 +1,3 @@
-<script type="text/x-mathjax-config">MathJax.Hub.Config({tex2jax:{inlineMath:[['\$','\$'],['\\(','\\)']],processEscapes:true},CommonHTML: {matchFontHeight:false}});</script>
-<script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML"></script>
-
-
-
 # 実行までの手順
 1. flag.zipファイルをダウンロード
 2. ダウンロードファイルを解凍
@@ -71,15 +66,15 @@ s[1] s[2] ... s[q]
 * ![$1 \leq q\leq 50$](https://render.githubusercontent.com/render/math?math=%241%20%5Cleq%20q%5Cleq%2050%24)
  ,　整数 
 * ![$s\[i\]$](https://render.githubusercontent.com/render/math?math=%24s%5Bi%5D%24)
- は　**RU**, **RD**, **MU**, **MD** のいずれか
+ は　`RU`, `RD`, `MU`, `MD` のいずれか
 * ![$s\[i\]$](https://render.githubusercontent.com/render/math?math=%24s%5Bi%5D%24)
  の1文字目は、旗の色を示しています。
 
- 1文字目が**R**の場合は赤（Red）、**W**の場合は白（White）の旗に対する指示であることを示しています
+ 1文字目がRの場合は赤（Red）、`W`の場合は白（White）の旗に対する指示であることを示しています
  * ![$s\[i\]$](https://render.githubusercontent.com/render/math?math=%24s%5Bi%5D%24)
  の2文字目は、上げるか下げるかを表しています。
 
- 2文字目が**U**の場合は上げる（Up）、**D**の場合は下げる指示（Down）であることしています
+ 2文字目が**U**の場合は上げる（Up）、`D`の場合は下げる指示（Down）であることしています
 
 
 
@@ -92,10 +87,10 @@ Winner
 [FlagStates]
 ```
 
-* 1行目に、シモンが勝利した場合は **Simon**、 アリスが勝利した場合は **ALice** と出力されます。
-* もしシモンが勝利した場合、2文字の旗の状態 **XY**が表示されます。
-    * **X**には、赤の旗が上がっているならば **U**、 下がっているならば **D**が記入されます。
-    * **Y**には、白の旗が上がっているならば **U**、 下がっているならば **D**が記入されます。
+* 1行目に、シモンが勝利した場合は `Simon`、 アリスが勝利した場合は `ALice` と出力されます。
+* もしシモンが勝利した場合、2文字の旗の状態 `XY`が表示されます。
+    * `X`には、赤の旗が上がっているならば `U`、 下がっているならば `D`が記入されます。
+    * `Y`には、白の旗が上がっているならば `U`、 下がっているならば `D`が記入されます。
 
 ## 入出力例
 
@@ -123,7 +118,7 @@ UD
 
 よって、最終的に赤が上がっており、白が下がっている。
 
-答えとしては、シモンが勝ち、その時の最終状態は **UD**であると答えるのが正解になります。
+答えとしては、シモンが勝ち、その時の最終状態は `UD`であると答えるのが正解になります。
 
 ### 入出力例2
 
